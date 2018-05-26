@@ -20,21 +20,28 @@
 			<Item Name="Detect Threshold.vi" Type="VI" URL="../subVI/Detect Threshold.vi"/>
 			<Item Name="Output BPM.vi" Type="VI" URL="../subVI/Output BPM.vi"/>
 			<Item Name="Acquiring.vi" Type="VI" URL="../subVI/Acquiring.vi"/>
-			<Item Name="Buffer data.vi" Type="VI" URL="../subVI/Buffer data.vi"/>
+			<Item Name="Display data.vi" Type="VI" URL="../subVI/Display data.vi"/>
 			<Item Name="Config hardware.vi" Type="VI" URL="../subVI/Config hardware.vi"/>
 			<Item Name="fft_subvi.vi" Type="VI" URL="../subVI/fft_subvi.vi"/>
 			<Item Name="Filter_array.vi" Type="VI" URL="../subVI/Filter_array.vi"/>
+			<Item Name="Trainning body.vi" Type="VI" URL="../subVI/Trainning body.vi"/>
 			<Item Name="logging loop.vi" Type="VI" URL="../subVI/logging loop.vi"/>
 			<Item Name="Processing loop.vi" Type="VI" URL="../subVI/Processing loop.vi"/>
+			<Item Name="HR threshold range.vi" Type="VI" URL="../subVI/HR threshold range.vi"/>
+			<Item Name="Buffer data.vi" Type="VI" URL="../subVI/Buffer data.vi"/>
 		</Item>
 		<Item Name="Control" Type="Folder">
 			<Item Name="port config.ctl" Type="VI" URL="../Control/port config.ctl"/>
 			<Item Name="Settings.ctl" Type="VI" URL="../Control/Settings.ctl"/>
+			<Item Name="Bio_Information.ctl" Type="VI" URL="../Control/Bio_Information.ctl"/>
 		</Item>
 		<Item Name="load data ver 2.vi" Type="VI" URL="../load data ver 2.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="read data.vi" Type="VI" URL="../read data.vi"/>
 		<Item Name="Main 17052018.vi" Type="VI" URL="../Main 17052018.vi"/>
+		<Item Name="HRmax calculate.vi" Type="VI" URL="../subVI/HRmax calculate.vi"/>
+		<Item Name="Case Control.vi" Type="VI" URL="../subVI/Case Control.vi"/>
+		<Item Name="Digital control.vi" Type="VI" URL="../subVI/Digital control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -106,11 +113,12 @@
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="Detect Threshold Control.ctl" Type="VI" URL="../Detect Threshold Control.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="LVASPT_WA.dll" Type="Document" URL="/&lt;resource&gt;/LVASPT_WA.dll"/>
-			<Item Name="Envelop detect.vi" Type="VI" URL="../Envelop detect.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
